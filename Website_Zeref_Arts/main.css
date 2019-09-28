@@ -1,0 +1,68 @@
+body
+{
+    background-image: linear-gradient(to bottom, #AF21BF, #bf00ff);
+    width: auto;
+    font-family: futura;
+    color: white
+}
+
+header
+{
+    width: 1333px;
+}
+
+nav 
+{
+    display:block;
+}
+
+ul 
+{
+    display: flex;
+    flex:auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #AF21BF;
+    padding: 5px;
+    margin: 2px;
+    border: solid;
+    border-color: #3A0B40;
+}
+
+li
+{
+    list-style-type:none;
+    margin: 2px;
+    padding: 5px;
+    border: solid 1px;
+    border-color: #3A0B40;
+}
+
+img
+{
+    width: inherit     
+}
+
+script
+{
+    width: 30px;
+}
+
+aside
+{
+    border: solid 2px;
+    border-color: black;
+    width: 300px;
+}
+
+div
+{
+    display: flex;
+    flex: auto
+}
+
+.aside
+{
+    max-width: 300px
+}
+
